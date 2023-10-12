@@ -4,7 +4,7 @@ This is a project template for AEM-based applications. It is intended as a best-
 
 ## Modules
 
-The main parts of the template are:
+The main parts of the template are: I'm here Pete...
 
 * core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters.
 * it.tests: Java based integration tests
