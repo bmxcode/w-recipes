@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/w-recipes",
+        "create path (nt:unstructured) /content/dam/w-recipes/jcr:content",
+        "set properties on /content/dam/w-recipes/jcr:content\n  set cq:conf{String} to /conf/w-recipes\n  set jcr:title{String} to \"Woolworths Recipes\"\nend"
+    ]
+}
