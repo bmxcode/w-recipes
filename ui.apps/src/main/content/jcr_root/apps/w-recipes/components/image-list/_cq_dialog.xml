@@ -21,7 +21,7 @@
           jcr:title="Image List"
           sling:resourceType="cq/gui/components/authoring/dialog"
           extraClientlibs="[core.wcm.components.list.v2.editor]"
-          trackingFeature="wknd:image-list">
+          trackingFeature="w-recipes:image-list">
     <content
             jcr:primaryType="nt:unstructured">
         <items jcr:primaryType="nt:unstructured">
