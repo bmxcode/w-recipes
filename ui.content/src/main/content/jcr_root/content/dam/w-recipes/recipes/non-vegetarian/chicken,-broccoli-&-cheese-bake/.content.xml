@@ -21,7 +21,7 @@
         jcr:title="Chicken, Broccoli &amp; Cheese Bake"
         contentFragment="{Boolean}true">
         <data
-            cq:model="/conf/Recipes/settings/dam/cfm/models/recipes"
+            cq:model="/conf/w-recipes/settings/dam/cfm/models/recipes"
             jcr:primaryType="nt:unstructured"
             _strucVersion="{Long}1">
             <master
@@ -57,7 +57,7 @@
                 jcr:mixinTypes="[dam:IndexedFragmentData]"
                 jcr:primaryType="nt:unstructured"
                 jcr:uuid="ce42db84-d856-442f-9729-d1636cf730e5"
-                _x0040_string_x0040_model="/conf/Recipes/settings/dam/cfm/models/recipes"
+                _x0040_string_x0040_model="/conf/w-recipes/settings/dam/cfm/models/recipes"
                 _x0040_stringArray_x0040_variations="[]"
                 string_x0040_cook="25"
                 string_x0040_difficulty="3"
