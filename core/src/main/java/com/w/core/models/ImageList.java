@@ -1,4 +1,4 @@
-package com.adobe.aem.w.core.models;
+package com.w.core.models;
 
 import org.apache.sling.api.resource.Resource;
 
