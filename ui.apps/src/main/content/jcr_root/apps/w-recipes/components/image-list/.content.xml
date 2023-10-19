@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Image List"
     sling:resourceSuperType="core/wcm/components/list/v3/list"
-    componentGroup="WKND.Content"/>
+  componentGroup="Woolworths Recipes - Content"/>
