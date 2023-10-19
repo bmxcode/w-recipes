@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/w-recipes" mode="merge"/>
+    <filter root="/content/cq:graphql/w-recipes" mode="merge"/>
+    <filter root="/content/cq:tags/woolworths" mode="merge"/>
     <filter root="/content/w-recipes" mode="merge"/>
     <filter root="/content/dam/w-recipes" mode="merge">
         <exclude pattern="/content/dam/w-recipes(/.*)?"/>
         <include pattern="/content/dam/w-recipes/jcr:content(/.*)?"/>
     </filter>
     <filter root="/content/dam/w-recipes/asset.jpg" mode="merge"/>
+    <filter root="/content/dam/woolworths" mode="merge"/>
     <filter root="/content/experience-fragments/w-recipes" mode="merge"/>
 </workspaceFilter>

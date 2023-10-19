@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:isDelivered="{Boolean}true"
+    cq:lastReplicated="{Date}2023-10-13T00:01:30.106Z"
+    cq:lastReplicated_publish="{Date}2023-10-13T00:01:30.106Z"
+    cq:lastReplicatedBy="waring@adobe.com"
+    cq:lastReplicatedBy_publish="waring@adobe.com"
+    cq:lastReplicationAction="Activate"
+    cq:lastReplicationAction_publish="Activate"
+    jcr:description="\0"
+    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Recipes"
+    sling:resourceType="cq/tagging/components/tag">
+    <cusine/>
+    <course/>
+    <vegetables/>
+    <category/>
+    <allergies/>
+</jcr:root>
