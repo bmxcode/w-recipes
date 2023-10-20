@@ -13,7 +13,7 @@
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:name="chickenbroccolibake.webp"
-        cq:parentPath="/content/dam/woolworths/recipes/images"
+        cq:parentPath="/content/dam/w-recipes/recipes/images"
         dam:assetState="processed"
         dam:jobId="d2cd79b2-0937-420b-a2f3-3a340d5a6275"
         dam:processingId="426bb06e-f6f0-4bd4-bbc0-ae1cdc24d8f5"

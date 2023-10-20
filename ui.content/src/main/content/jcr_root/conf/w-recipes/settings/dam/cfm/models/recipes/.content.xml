@@ -65,7 +65,7 @@
                             name="mainImage"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/dam/woolworths/recipes/images"
+                            rootPath="/content/dam/w-recipes/recipes/images"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
