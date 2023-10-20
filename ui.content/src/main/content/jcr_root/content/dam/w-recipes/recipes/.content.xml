@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        jcr:lastModified="{Date}2023-10-12T22:53:10.415Z"
+        jcr:lastModifiedBy="waring@adobe.com"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Recipes"
+        metadataSchema="System Default"
+        postProcessWF="System Default"
+        processingProfile="System Default"
+        sourcing="false">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

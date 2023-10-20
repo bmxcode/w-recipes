@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:description="\0"
+    jcr:lastModified="{Date}2023-10-12T23:05:35.547Z"
+    jcr:lastModifiedBy="waring@adobe.com"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Allergies"
+    sling:resourceType="cq/tagging/components/tag">
+    <tree-nut-free/>
+    <egg-free/>
+    <sesame-free/>
+    <peanut-free/>
+</jcr:root>
