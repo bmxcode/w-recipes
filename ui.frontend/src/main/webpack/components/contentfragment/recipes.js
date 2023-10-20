@@ -6,12 +6,6 @@ import {decorateImages} from "./lib-contentfragment";
     const processedFlag = 'data-cmp-recipe-processed';
     const recipeCfSelector = '.cmp-contentfragment[data-cmp-contentfragment-model="w-recipes/models/recipes"]:not([' + processedFlag + '="true"])';
 
-    const contributorSelector = ".cmp-contentfragment--contributor " +
-        ".cmp-contentfragment[data-cmp-contentfragment-model=\"wknd/models/contributor\"]:not([data-cmp-contributor-processed='true'])";
-
-    const pictureSelector = ".cmp-contentfragment__element--pictureReference " +
-        ".cmp-contentfragment__element-value";
-
     function applyComponentStyles(responsiveGridEl) {
         responsiveGridEl.querySelectorAll(recipeCfSelector).forEach(function (cf) {
             // Mark the content fragment as processed, since we don't want to accidentally apply the JS adjustments multiple times
@@ -22,7 +16,7 @@ import {decorateImages} from "./lib-contentfragment";
     }
 
     // Since mutation observers can only watch a single node (and not a node list), we'll register a mutation observer for each responsive grid
-    // on the page, as we are no sure which responsive grid a contributor-style content fragment might be added to.
+    // on the page, as we are no sure which responsive grid a recipe content fragment might be added to.
     document.querySelectorAll(".responsivegrid").forEach(function(responsiveGridEl) {
         // Initialize the component styles on page load
         applyComponentStyles(responsiveGridEl);
