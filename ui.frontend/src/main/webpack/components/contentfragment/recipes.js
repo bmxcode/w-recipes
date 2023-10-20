@@ -5,54 +5,54 @@ import {decorateImages} from './lib-contentfragment';
 
     const processedFlag = 'data-cmp-recipe-processed';
     const recipeCfSelector = '.cmp-contentfragment[data-cmp-contentfragment-model="w-recipes/models/recipes"]:not([' + processedFlag + '="true"])';
-    const stepsElSelector = '.cmp-contentfragment__element.cmp-contentfragment__element--steps';
+    const methodElSelector = '.cmp-contentfragment__element.cmp-contentfragment__element--method';
     const cfElTitleSelector = '.cmp-contentfragment__element-title'
     const cfElValueSelector = '.cmp-contentfragment__element-value'
     const headingsSelector = 'h1,h2,h3,h4,h5,h6';
 
-    function createStepContainer(stepsContainer, stepNo) {
+    function createStepContainer(methodContainer, stepNo) {
         const stepContainer = document.createElement('div');
-        stepContainer.classList.add('cmp-contentfragment__recipe-steps-container__step');
+        stepContainer.classList.add('cmp-contentfragment__recipe-method-container__step');
         const stepHeading = document.createElement('h2');
-        stepHeading.classList.add('cmp-contentfragment__recipe-steps-container__step--heading');
+        stepHeading.classList.add('cmp-contentfragment__recipe-method-container__step--heading');
         stepHeading.insertAdjacentText('afterbegin', 'Step ' + stepNo);
         stepContainer.append(stepHeading);
         const stepMethod = document.createElement('div');
-        stepMethod.classList.add('cmp-contentfragment__recipe-steps-container__step--method')
+        stepMethod.classList.add('cmp-contentfragment__recipe-method-container__step--method')
         stepContainer.append(stepMethod);
-        stepsContainer.append(stepContainer);
+        methodContainer.append(stepContainer);
         return stepContainer;
     }
 
-    function decorateSteps(element) {
-        const stepsEl = element.querySelector(stepsElSelector);
-        const stepsElValue = stepsEl.querySelector(cfElValueSelector);
+    function decorateMethod(element) {
+        const methodEl = element.querySelector(methodElSelector);
+        const methodElValue = methodEl.querySelector(cfElValueSelector);
 
-        const stepsContainer = document.createElement('div');
-        stepsContainer.classList.add('cmp-contentfragment__recipe-steps-container')
+        const methodContainer = document.createElement('div');
+        methodContainer.classList.add('cmp-contentfragment__recipe-method-container')
 
         let stepNo = 1;
-        let stepContainer = createStepContainer(stepsContainer, stepNo++);
-        let stepMethod = stepContainer.querySelector('.cmp-contentfragment__recipe-steps-container__step--method');
+        let stepContainer = createStepContainer(methodContainer, stepNo++);
+        let stepMethod = stepContainer.querySelector('.cmp-contentfragment__recipe-method-container__step--method');
 
-        const stepsContent = [...stepsElValue.children];
-        for (let i = 0; i < stepsContent.length; i++) {
-            let child = stepsContent[i];
+        const methodContent = [...methodElValue.children];
+        for (let i = 0; i < methodContent.length; i++) {
+            let child = methodContent[i];
             if (!child.matches(headingsSelector)) {
                 stepMethod.append(child);
             } else if (stepMethod.children.length !== 0) {
                 // Previous step method is not empty. Increment to next step
-                stepContainer = createStepContainer(stepsContainer, stepNo++);
-                stepMethod = stepContainer.querySelector('.cmp-contentfragment__recipe-steps-container__step--method');
+                stepContainer = createStepContainer(methodContainer, stepNo++);
+                stepMethod = stepContainer.querySelector('.cmp-contentfragment__recipe-method-container__step--method');
             }
         }
 
-        stepsElValue.replaceChildren(stepsContainer);
+        methodElValue.replaceChildren(methodContainer);
 
-        const stepHeadings = stepsElValue.querySelectorAll('.cmp-contentfragment__recipe-steps-container__step--heading');
+        const stepHeadings = methodElValue.querySelectorAll('.cmp-contentfragment__recipe-method-container__step--heading');
         stepHeadings.forEach((heading) => {
             heading.insertAdjacentText('beforeend', ' of ' + stepHeadings.length);
-        })
+        });
     }
 
     function applyComponentStyles(responsiveGridEl) {
@@ -61,7 +61,7 @@ import {decorateImages} from './lib-contentfragment';
             cf.setAttribute(processedFlag, true);
             // Adjust the DOM
             decorateImages(cf);
-            decorateSteps(cf);
+            decorateMethod(cf);
         });
     }
 

@@ -14,13 +14,13 @@
         cq:lastReplicationAction_publish="Activate"
         cq:name="chicken,-broccoli-&amp;-cheese-bake"
         cq:parentPath="/content/dam/w-recipes/recipes/non-vegetarian"
-        jcr:lastModified="{Date}2023-10-20T18:08:04.399+11:00"
+        jcr:lastModified="{Date}2023-10-20T19:23:15.076+11:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Chicken, Broccoli &amp; Cheese Bake"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-10-20T18:08:04.399+11:00">
+        lastFragmentSave="{Date}2023-10-20T19:23:15.076+11:00">
         <data
             cq:model="/conf/w-recipes/settings/dam/cfm/models/recipes"
             jcr:primaryType="nt:unstructured"
@@ -37,27 +37,23 @@
                 difficulty_x0040_LastModified="{Date}2023-10-12T23:57:55.705Z"
                 ingredients="[20g butter\, melted 20 grams butter\, melted ,1 1/2 cup milk 1 and 1 half cup milk  ,250g frozen chopped spinach\, thawed 250 grams frozen chopped spinach\, thawed ,1 large head broccoli\, cut into florets,1 large free-range BBQ roast chicken 1  large free-range BBQ roast chicken  ,250g light cream cheese,1 tbs dijon mustard 1 tablespoon dijon mustard  ,4 cups garden salad (optional\, to serve) 4 cups garden salad  (optional\, to serve),1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs  ,3/4 cup tasty cheese\, shredded 3 quarters cup tasty cheese\, shredded ]"
                 ingredients_x0040_LastModified="{Date}2023-10-12T23:59:36.162Z"
-                mainImage="/content/dam/w-recipes/recipes/images/chickenbroccolibake.webp"
-                mainImage_x0040_LastModified="{Date}2023-10-12T23:56:50.749Z"
+                mainImage="/content/dam/w-recipes/recipes/images/1603-chickenbroccolibake_Desktop-1300x658.jpeg"
+                mainImage_x0040_LastModified="{Date}2023-10-20T19:23:15.061+11:00"
+                method="&lt;h3>Step 1 of 4&lt;/h3>&#xa;&lt;p>Preheat the oven to 190°C/170°C fan-forced.&lt;/p>&#xa;&lt;h3>Step 2 of 4&lt;/h3>&#xa;&lt;p>In a large skillet over medium heat, cook the chicken in olive oil for 5 minutes or until the chicken is brown. Tip in the leeks and garlic and cook for another 2 minutes. Cooked pasta for 2 minutes less than the package instructions. Reserve 300ml pasta water and drain.&lt;/p>&#xa;&lt;h3>Step 3 of 4&lt;/h3>&#xa;&lt;p>Deglaze the pan with the reserved pasta water, making sure to scrap the brown bits at the bottom of the pan. Mix in the cream cheese and stir until completely melted. Take off from heat.&lt;/p>&#xa;&lt;h3>Step 4 of 4&lt;/h3>&#xa;&lt;p>Stir the pasta and broccoli into the sauce. Fold in the half of mozzarella and mix through. Transfer the pasta into a baking dish and sprinkle with the remaining cheese on top. Bake in the oven for 10 minutes or until the cheese has melted. Allow to rest for about 5 minutes before serving.&lt;/p>&#xa;"
+                method_x0040_ContentType="text/html"
+                method_x0040_LastModified="{Date}2023-10-20T19:20:36.686+11:00"
                 prep="15"
                 prep_x0040_LastModified="{Date}2023-10-12T23:57:50.686Z"
                 serves="4"
                 serves_x0040_LastModified="{Date}2023-10-12T23:57:53.564Z"
                 step1="Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain."
-                step1_x0040_ContentType="text/plain"
-                step1_x0040_LastModified="{Date}2023-10-20T13:54:13.891+11:00"
+                step1_x0040_LastModified="{Date}2023-10-12T23:59:45.862Z"
                 step2="Remove meat from chicken and roughly chop. Discard skin and bones."
-                step2_x0040_ContentType="text/plain"
-                step2_x0040_LastModified="{Date}2023-10-20T13:54:13.892+11:00"
+                step2_x0040_LastModified="{Date}2023-10-12T23:59:53.122Z"
                 step3="Heat cream cheese, milk and mustard in a saucepan over medium heat, stirring until smooth. Remove from heat and add 1/2 cup cheese, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken, broccoli, sauce and spinach in an 8-cup capacity ovenproof dish."
-                step3_x0040_ContentType="text/plain"
-                step3_x0040_LastModified="{Date}2023-10-20T13:54:13.892+11:00"
+                step3_x0040_LastModified="{Date}2023-10-13T00:00:02.337Z"
                 step4="Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired."
-                step4_x0040_ContentType="text/plain"
-                step4_x0040_LastModified="{Date}2023-10-20T13:54:13.893+11:00"
-                steps="&lt;h1>Step 1&lt;/h1>&#xa;&lt;p>Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain.&lt;/p>&#xa;&lt;h1>Step 2&lt;/h1>&#xa;&lt;p>Remove meat from chicken and roughly chop. Discard skin and bones.&lt;/p>&#xa;&lt;h1>Step 3&lt;/h1>&#xa;&lt;p>Heat cream cheese, milk and mustard in a saucepan over medium heat, stirring until smooth. Remove from heat and add 1/2 cup cheese, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken, broccoli, sauce and spinach in an 8-cup capacity ovenproof dish.&lt;/p>&#xa;&lt;h1>Step 4&lt;/h1>&#xa;&lt;p>Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired.&lt;/p>&#xa;"
-                steps_x0040_ContentType="text/html"
-                steps_x0040_LastModified="{Date}2023-10-20T18:08:04.312+11:00"
+                step4_x0040_LastModified="{Date}2023-10-13T00:00:09.205Z"
                 title="Chicken, Broccoli &amp; Cheese Bake"
                 title_x0040_LastModified="{Date}2023-10-12T23:56:31.643Z"/>
         </data>
@@ -70,29 +66,19 @@
                 _x0040_stringArray_x0040_variations="[]"
                 string_x0040_cook="25"
                 string_x0040_difficulty="3"
+                string_x0040_method="&lt;h3>Step 1 of 4&lt;/h3>&#xa;&lt;p>Preheat the oven to 190°C/170°C fan-forced.&lt;/p>&#xa;&lt;h3>Step 2 of 4&lt;/h3>&#xa;&lt;p>In a large skillet over medium heat, cook the chicken in olive oil for 5 minutes or until the chicken is brown. Tip in the leeks and garlic and cook for another 2 minutes. Cooked pasta for 2 minutes less than the package instructions. Reserve 300ml pasta water and drain.&lt;/p>&#xa;&lt;h3>Step 3 of 4&lt;/h3>&#xa;&lt;p>Deglaze the pan with the reserved pasta water, making sure to scrap the brown bits at the bottom of the pan. Mix in the cream cheese and stir until completely melted. Take off from heat.&lt;/p>&#xa;&lt;h3>Step 4 of 4&lt;/h3>&#xa;&lt;p>Stir the pasta and broccoli into the sauce. Fold in the half of mozzarella and mix through. Transfer the pasta into a baking dish and sprinkle with the remaining cheese on top. Bake in the oven for 10 minutes or until the cheese has melted. Allow to rest for about 5 minutes before serving.&lt;/p>&#xa;"
                 string_x0040_prep="15"
                 string_x0040_serves="4"
                 string_x0040_step1="Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain."
                 string_x0040_step2="Remove meat from chicken and roughly chop. Discard skin and bones."
                 string_x0040_step3="Heat cream cheese, milk and mustard in a saucepan over medium heat, stirring until smooth. Remove from heat and add 1/2 cup cheese, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken, broccoli, sauce and spinach in an 8-cup capacity ovenproof dish."
                 string_x0040_step4="Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired."
-                string_x0040_steps="&lt;h1>Step 1&lt;/h1>&#xa;&lt;p>Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain.&lt;/p>&#xa;&lt;h1>Step 2&lt;/h1>&#xa;&lt;p>Remove meat from chicken and roughly chop. Discard skin and bones.&lt;/p>&#xa;&lt;h1>Step 3&lt;/h1>&#xa;&lt;p>Heat cream cheese, milk and mustard in a saucepan over medium heat, stirring until smooth. Remove from heat and add 1/2 cup cheese, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken, broccoli, sauce and spinach in an 8-cup capacity ovenproof dish.&lt;/p>&#xa;&lt;h1>Step 4&lt;/h1>&#xa;&lt;p>Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired.&lt;/p>&#xa;"
                 string_x0040_title="Chicken, Broccoli &amp; Cheese Bake"
-                stringArray_x0040_ingredients="[20g butter\, melted 20 grams butter\, melted ,1 1/2 cup milk 1 and 1 half cup milk  ,250g frozen chopped spinach\, thawed 250 grams frozen chopped spinach\, thawed ,1 large head broccoli\, cut into florets,1 large free-range BBQ roast chicken 1  large free-range BBQ roast chicken  ,250g light cream cheese,1 tbs dijon mustard 1 tablespoon dijon mustard  ,4 cups garden salad (optional\, to serve) 4 cups garden salad  (optional\, to serve),1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs  ,3/4 cup tasty cheese\, shredded 3 quarters cup tasty cheese\, shredded ]"
-                stringArray_x0040_steps="[&lt;p>Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain.&lt;/p>&#xa;,&lt;p>Remove meat from chicken and roughly chop. Discard skin and bones.&lt;/p>&#xa;,&lt;p>Heat cream cheese\, milk and mustard in a saucepan over medium heat\, stirring until smooth. Remove from heat and add 1/2 cup cheese\, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken\, broccoli\, sauce and spinach in an 8-cup capacity ovenproof dish.&lt;/p>&#xa;,&lt;p>Combine breadcrumbs\, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired.&lt;/p>&#xa;]"/>
+                stringArray_x0040_ingredients="[20g butter\, melted 20 grams butter\, melted ,1 1/2 cup milk 1 and 1 half cup milk  ,250g frozen chopped spinach\, thawed 250 grams frozen chopped spinach\, thawed ,1 large head broccoli\, cut into florets,1 large free-range BBQ roast chicken 1  large free-range BBQ roast chicken  ,250g light cream cheese,1 tbs dijon mustard 1 tablespoon dijon mustard  ,4 cups garden salad (optional\, to serve) 4 cups garden salad  (optional\, to serve),1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs  ,3/4 cup tasty cheese\, shredded 3 quarters cup tasty cheese\, shredded ]"/>
         </indexedData>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2023-10-20T13:37:08.411+11:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>

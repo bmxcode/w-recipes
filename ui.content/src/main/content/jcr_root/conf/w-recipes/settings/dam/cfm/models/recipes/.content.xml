@@ -5,7 +5,7 @@
     ranking="{Long}100">
     <jcr:content
         cq:isDelivered="{Boolean}true"
-        cq:lastModified="{Date}2023-10-20T19:12:38.524+11:00"
+        cq:lastModified="{Date}2023-10-20T19:19:34.274+11:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2023-10-13T00:01:30.106Z"
         cq:lastReplicated_publish="{Date}2023-10-13T00:01:30.106Z"
@@ -34,7 +34,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2023-10-20T19:12:38.524+11:00"
+                    jcr:lastModified="{Date}2023-10-20T19:19:34.274+11:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
@@ -125,18 +125,6 @@
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_697150466496>
-                        <_x0031_697770347637
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
-                            cfm-element="Steps"
-                            checked="false"
-                            default-mime-type="text/html"
-                            listOrder="2"
-                            metaType="text-multi"
-                            name="steps"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string/multiline"/>
                         <_x0031_697151317449
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
@@ -158,6 +146,18 @@
                             </field>
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_697151317449>
+                        <_x0031_697150564043
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Method"
+                            checked="false"
+                            default-mime-type="text/html"
+                            listOrder="2"
+                            metaType="text-multi"
+                            name="method"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/multiline"/>
                         <_x0031_697150675949
                             cq:showOnCreate="true"
                             jcr:primaryType="nt:unstructured"
