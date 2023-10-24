@@ -2,15 +2,15 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="bad51868-04a9-400f-936d-821bbf32df3c">
+    jcr:uuid="39e63303-5624-4198-a9d8-18d594c97290">
     <jcr:content
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-10-24T15:42:39.213+11:00"
+        jcr:lastModified="{Date}2023-10-24T15:42:39.189+11:00"
         jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2023-10-24T15:42:39.096+11:00"
+            dam:extracted="{Date}2023-10-24T15:42:39.082+11:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,8 +20,8 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="64c91b50e9071423bf0dc9bf81c3de292b184ebf"
-            dam:size="{Long}357761"
+            dam:sha1="f2c1c82c842a4a80cf5a5383ed4548886dfc6d74"
+            dam:size="{Long}310622"
             dc:format="image/jpeg"
             exif:ColorSpace="{Long}1"
             exif:PixelXDimension="{Long}1300"

@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-10-24T13:47:30.696+11:00"
+        cq:lastModified="{Date}2023-10-24T14:07:03.999+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/w-recipes/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -20,7 +20,10 @@
                 sling:resourceType="w-recipes/components/container"
                 layout="responsiveGrid">
                 <title
+                    jcr:lastModified="{Date}2023-10-24T14:07:03.994+11:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
+                    jcr:title="Italian-style Sausage Bake"
                     sling:resourceType="w-recipes/components/title"/>
                 <container
                     jcr:primaryType="nt:unstructured"

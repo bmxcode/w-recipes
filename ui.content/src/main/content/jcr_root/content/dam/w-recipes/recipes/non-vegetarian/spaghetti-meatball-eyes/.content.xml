@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    jcr:primaryType="sling:Folder">
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c0ec3ba6-6143-4bb6-9e1b-c344304dbc9a">
     <jcr:content
         cq:isDelivered="{Boolean}true"
         cq:lastModified="{Date}2023-10-24T12:56:06.687+11:00"
@@ -8,13 +11,13 @@
         cq:lastReplicated_publish="{Date}2023-10-13T00:01:30.106Z"
         cq:lastReplicatedBy_publish="waring@adobe.com"
         cq:lastReplicationAction_publish="Activate"
-        cq:name="effortless-spaghetti-b&#xa;olognese"
+        cq:name="spaghetti-meatball-eyes"
         cq:parentPath="/content/dam/w-recipes/recipes"
         jcr:lastModified="{Date}2023-10-24T12:56:53.585+11:00"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="Non-vegetarian"
+        jcr:title="Spaghetti Meatball Eyes"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2023-10-24T12:56:53.585+11:00">
         <data
@@ -33,7 +36,7 @@
                 difficulty_x0040_LastModified="{Date}2023-10-12T23:57:55.705Z"
                 ingredients="[20g butter\, melted 20 grams butter\, melted ,1 1/2 cup milk 1 and 1 half cup milk  ,250g frozen chopped spinach\, thawed 250 grams frozen chopped spinach\, thawed ,1 large head broccoli\, cut into florets,1 large free-range BBQ roast chicken 1  large free-range BBQ roast chicken  ,250g light cream cheese,1 tbs dijon mustard 1 tablespoon dijon mustard  ,4 cups garden salad (optional\, to serve) 4 cups garden salad  (optional\, to serve),1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs  ,3/4 cup tasty cheese\, shredded 3 quarters cup tasty cheese\, shredded ]"
                 ingredients_x0040_LastModified="{Date}2023-10-12T23:59:36.162Z"
-                mainImage="/content/dam/w-recipes/recipes/images/2304-Italian-style-sausage-bake_Desktop-1300x658.jpeg"
+                mainImage="http://localhost:4502/assetdetails.html/content/dam/w-recipes/recipes/images/fi-2308-spaghetti-and-meatball-eyes_Desktop-1300x658.jpeg"
                 mainImage_x0040_LastModified="{Date}2023-10-24T12:56:53.570+11:00"
                 method="&lt;h3>Step 1 of 4&lt;/h3>&#xa;&lt;p>Preheat the oven to 190°C/170°C fan-forced.&lt;/p>&#xa;&lt;h3>Step 2 of 4&lt;/h3>&#xa;&lt;p>In a large skillet over medium heat, cook the chicken in olive oil for 5 minutes or until the chicken is brown. Tip in the leeks and garlic and cook for another 2 minutes. Cooked pasta for 2 minutes less than the package instructions. Reserve 300ml pasta water and drain.&lt;/p>&#xa;&lt;h3>Step 3 of 4&lt;/h3>&#xa;&lt;p>Deglaze the pan with the reserved pasta water, making sure to scrap the brown bits at the bottom of the pan. Mix in the cream cheese and stir until completely melted. Take off from heat.&lt;/p>&#xa;&lt;h3>Step 4 of 4&lt;/h3>&#xa;&lt;p>Stir the pasta and broccoli into the sauce. Fold in the half of mozzarella and mix through. Transfer the pasta into a baking dish and sprinkle with the remaining cheese on top. Bake in the oven for 10 minutes or until the cheese has melted. Allow to rest for about 5 minutes before serving.&lt;/p>&#xa;"
                 method_x0040_ContentType="text/html"
@@ -50,14 +53,14 @@
                 step3_x0040_LastModified="{Date}2023-10-13T00:00:02.337Z"
                 step4="Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired."
                 step4_x0040_LastModified="{Date}2023-10-13T00:00:09.205Z"
-                title="Italian-style Sausage Bake"
+                title="Spaghetti Meatball Eyes"
                 title_x0040_LastModified="{Date}2023-10-24T12:56:53.570+11:00"/>
         </data>
         <indexedData jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[dam:IndexedFragmentData]"
                 jcr:primaryType="nt:unstructured"
-                jcr:uuid="b06b86f1-bbbf-4f6d-b556-0613bbc61d61"
+                jcr:uuid="a8b31c28-ee0e-49c4-a35f-368f8ee7baa9"
                 _x0040_string_x0040_model="/conf/w-recipes/settings/dam/cfm/models/recipes"
                 _x0040_stringArray_x0040_variations="[]"
                 string_x0040_cook="25"
