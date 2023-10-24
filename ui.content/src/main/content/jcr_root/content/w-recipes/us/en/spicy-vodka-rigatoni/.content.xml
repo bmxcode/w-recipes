@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-10-24T19:33:13.705+11:00"
+        cq:lastModified="{Date}2023-10-25T09:27:25.127+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/w-recipes/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -48,71 +48,11 @@
                     <text_910987965
                         jcr:created="{Date}2023-10-24T19:21:13.984+11:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:22:01.012+11:00"
+                        jcr:lastModified="{Date}2023-10-25T09:26:52.659+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="w-recipes/components/text"
-                        text="&lt;p>&lt;b>Prep &lt;/b>5m&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text_1235111811
-                        jcr:created="{Date}2023-10-24T19:18:23.105+11:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:21:05.444+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="w-recipes/components/text"
-                        id="cook"
-                        text="&lt;p>&lt;b>Cook&lt;/b> 12m&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text_699528406
-                        jcr:created="{Date}2023-10-24T19:19:03.135+11:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:20:58.246+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="w-recipes/components/text"
-                        id="serves"
-                        text="&lt;p>&lt;b>Serves&lt;/b> 6&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text_2029308189
-                        jcr:created="{Date}2023-10-24T19:22:49.729+11:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:23:30.783+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="w-recipes/components/text"
-                        id="difficulty"
-                        text="&lt;p>&lt;b>Difficulty&lt;/b> 2&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text
-                        jcr:created="{Date}2023-10-24T19:16:38.788+11:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:26:04.302+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="w-recipes/components/text"
-                        id="ingredients"
-                        text="&lt;div>&lt;b>Ingredients&lt;/b>&lt;/div>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>1&amp;nbsp;jar&amp;nbsp;Mutti Gourmet Pasta Sauce Rossoro Tomatoes With Genovese Basil&lt;/li>&#xd;&#xa;&lt;li>500g&amp;nbsp;dried rigatoni&lt;br>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>500 grams dried rigatoni&lt;/li>&#xd;&#xa;&lt;li>1&amp;nbsp;tbs&amp;nbsp;olive oil&lt;/li>&#xd;&#xa;&lt;li>1 tablespoon olive oil&lt;/li>&#xd;&#xa;&lt;li>1&amp;nbsp;tbs&amp;nbsp;chilli flakes&lt;/li>&#xd;&#xa;&lt;li>1 tablespoon chilli flakes&lt;/li>&#xd;&#xa;&lt;li>60ml&amp;nbsp;vodka&lt;/li>&#xd;&#xa;&lt;li>60 millilitres vodka&lt;/li>&#xd;&#xa;&lt;li>300ml&amp;nbsp;cream&lt;/li>&#xd;&#xa;&lt;li>300 millilitres cream&lt;/li>&#xd;&#xa;&lt;li>200g&amp;nbsp;parmesan, finely grated&lt;/li>&#xd;&#xa;&lt;li>200 grams parmesan, finely grated&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text_331308038
-                        jcr:created="{Date}2023-10-24T19:26:29.214+11:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:28:47.465+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="w-recipes/components/text"
-                        id="method"
-                        text="&lt;h3>Method&lt;/h3>&#xd;&#xa;&lt;h3>Step 1&lt;/h3>&#xd;&#xa;&lt;p>Cook the rigatoni according to the packet instructions or until al dente.&lt;/p>&#xd;&#xa;&lt;h3>Step 2&lt;/h3>&#xd;&#xa;&lt;p>Meanwhile, heat the olive oil in a large frying pan over medium heat. Add the chilli flakes and stir for around 30 seconds until the oil turns red.&lt;/p>&#xd;&#xa;&lt;h3>Step 3&lt;/h3>&#xd;&#xa;&lt;p>Add the vodka, stir for a few seconds, then add the jar of Mutti Gourmet Pasta Sauce Rossoro Tomatoes With Genovese Basil, and stir to combine. Finally, add the cream and warm together for about 5 minutes.&lt;/p>&#xd;&#xa;&lt;h3>Step 4&lt;/h3>&#xd;&#xa;&lt;p>Drain the pasta and add it to the sauce, tossing to combine. Add most of the parmesan to the pan and toss to combine.&lt;/p>&#xd;&#xa;&lt;h3>Step 5&lt;/h3>&#xd;&#xa;&lt;p>Top with remaining parmesan and serve immediately.&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
-                        textIsRich="true"/>
-                    <text_1895224820
-                        jcr:created="{Date}2023-10-24T19:29:46.688+11:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-10-24T19:33:13.704+11:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="w-recipes/components/text"
-                        id="categories"
-                        text="&lt;p>&lt;b>Categories&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Italian&lt;/p>&#xd;&#xa;&lt;p>Main&lt;/p>&#xd;&#xa;"
+                        text="&lt;p>&lt;b style=&quot;font-size: 1pc;&quot;>Prep&amp;nbsp;&lt;/b>5m&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Cook&lt;/b>&amp;nbsp;12m&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Serves&lt;/b>&amp;nbsp;6&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Difficulty&lt;/b>&amp;nbsp;2&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Ingredients&lt;/b>&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>1&amp;nbsp;jar&amp;nbsp;Mutti Gourmet Pasta Sauce Rossoro Tomatoes With Genovese Basil&lt;/li>&#xd;&#xa;&lt;li>500g&amp;nbsp;dried rigatoni&lt;br>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>500 grams dried rigatoni&lt;/li>&#xd;&#xa;&lt;li>1&amp;nbsp;tbs&amp;nbsp;olive oil&lt;/li>&#xd;&#xa;&lt;li>1 tablespoon olive oil&lt;/li>&#xd;&#xa;&lt;li>1&amp;nbsp;tbs&amp;nbsp;chilli flakes&lt;/li>&#xd;&#xa;&lt;li>1 tablespoon chilli flakes&lt;/li>&#xd;&#xa;&lt;li>60ml&amp;nbsp;vodka&lt;/li>&#xd;&#xa;&lt;li>60 millilitres vodka&lt;/li>&#xd;&#xa;&lt;li>300ml&amp;nbsp;cream&lt;/li>&#xd;&#xa;&lt;li>300 millilitres cream&lt;/li>&#xd;&#xa;&lt;li>200g&amp;nbsp;parmesan, finely grated&lt;/li>&#xd;&#xa;&lt;li>200 grams parmesan, finely grated&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h3>Method&lt;/h3>&#xd;&#xa;&lt;h3>Step 1&lt;/h3>&#xd;&#xa;&lt;p>Cook the rigatoni according to the packet instructions or until al dente.&lt;/p>&#xd;&#xa;&lt;h3>Step 2&lt;/h3>&#xd;&#xa;&lt;p>Meanwhile, heat the olive oil in a large frying pan over medium heat. Add the chilli flakes and stir for around 30 seconds until the oil turns red.&lt;/p>&#xd;&#xa;&lt;h3>Step 3&lt;/h3>&#xd;&#xa;&lt;p>Add the vodka, stir for a few seconds, then add the jar of Mutti Gourmet Pasta Sauce Rossoro Tomatoes With Genovese Basil, and stir to combine. Finally, add the cream and warm together for about 5 minutes.&lt;/p>&#xd;&#xa;&lt;h3>Step 4&lt;/h3>&#xd;&#xa;&lt;p>Drain the pasta and add it to the sauce, tossing to combine. Add most of the parmesan to the pan and toss to combine.&lt;/p>&#xd;&#xa;&lt;h3>Step 5&lt;/h3>&#xd;&#xa;&lt;p>Top with remaining parmesan and serve immediately.&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Categories&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Italian&lt;/p>&#xd;&#xa;&lt;p>Main&lt;/p>&#xd;&#xa;"
                         textIsRich="true"/>
                 </container>
             </container>
