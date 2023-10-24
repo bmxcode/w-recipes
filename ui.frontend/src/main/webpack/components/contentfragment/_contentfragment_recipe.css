@@ -1,0 +1,95 @@
+.cmp-contentfragment__recipe {
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1194px;
+
+    /* Hide unwanted elements */
+    & .cmp-contentfragment__element--title {
+        display: none;
+    }
+
+    & .cmp-contentfragment__element-value {
+        margin-inline-start: 0;
+    }
+
+    & .cmp-contentfragment__element--mainImage {
+        & .cmp-contentfragment__element-title {
+            display: none;
+        }
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    /* Main title */
+    & .cmp-contentfragment__title {
+        font-size: 32px;
+        margin-block-end: 0.25em;
+        display: none;
+    }
+
+    /* Element titles */
+    & .cmp-contentfragment__element-title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+}
+
+.cmp-contentfragment__recipe-summary-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+    & .cmp-contentfragment__element-title {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    & .cmp-contentfragment__element-value {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    & .cmp-contentfragment__element {
+        width: 20%;
+        text-align: center;
+    }
+}
+
+.cmp-contentfragment__recipe-details-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 24px;
+    column-gap: 24px;
+
+    & .cmp-contentfragment__element--ingredients {
+        & .cmp-contentfragment__element-value {
+            line-height: 40px;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .cmp-contentfragment__recipe-details-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        
+        & .cmp-contentfragment__element--ingredients {
+            grid-row: span 2;
+        }
+    }
+}
+
+.cmp-contentfragment__recipe-method-container__step--heading {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
