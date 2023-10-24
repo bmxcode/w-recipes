@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
+    <italian-style-sausage-bake/>
     <jcr:content
-        cq:lastModified="{Date}2023-10-24T11:32:14.279+11:00"
+        cq:lastModified="{Date}2023-10-24T14:00:46.596+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/w-recipes/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -26,6 +27,25 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="w-recipes/components/container"
                     layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2023-10-24T13:59:58.129+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-10-24T14:00:16.326+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="w-recipes/components/text"
+                        text="&lt;p>Fresh Ideas for You — browse over 10,000 recipes for fresh ideas to cook this week. Plus,&amp;nbsp;&lt;a title=&quot;log in or sign up&quot; href=&quot;https://www.woolworths.com.au/shop/securelogin&quot;>log in&lt;/a>&amp;nbsp;to rate recipes, leave reviews and discover personalised recommendations.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <title
+                        jcr:created="{Date}2023-10-24T14:00:27.697+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-10-24T14:00:46.592+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Recipes to try this week"
+                        sling:resourceType="w-recipes/components/title"
+                        linkTarget="_self"
+                        type="h3"/>
                     <list
                         jcr:created="{Date}2023-10-24T10:05:38.089+11:00"
                         jcr:createdBy="admin"

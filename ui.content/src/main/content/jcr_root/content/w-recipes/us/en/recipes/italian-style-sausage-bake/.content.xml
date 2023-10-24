@@ -2,12 +2,15 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-10-24T13:14:30.305+11:00"
+        cq:lastModified="{Date}2023-10-24T13:47:30.696+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/w-recipes/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="Italian-style Sausage Bake"
-        sling:resourceType="w-recipes/components/page">
+        sling:resourceType="w-recipes/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="w-recipes/components/container"
@@ -38,5 +41,12 @@
                 </container>
             </container>
         </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2023-10-24T13:47:30.691+11:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"
+            fileReference="/content/dam/w-recipes/recipes/images/2304-Italian-style-sausage-bake_Desktop-1300x658.jpeg"/>
     </jcr:content>
 </jcr:root>

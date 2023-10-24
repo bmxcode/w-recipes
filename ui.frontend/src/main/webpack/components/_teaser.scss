@@ -1,4 +1,8 @@
-.cmp-teaser {}
+.cmp-teaser {
+   
+  
+
+}
 .cmp-teaser__image {
     width: 200px;
     height: 200px;
@@ -7,12 +11,19 @@
 .cmp-teaser__pretitle {}
 .cmp-teaser__title {
 
-color: black;
-font-family: Arial, Helvetica, sans-serif;
-font-size: small;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;  
 
 }
-.cmp-teaser__title-link {}
+.cmp-teaser__title-link {
+
+    text-decoration: none;
+    
+}
 .cmp-teaser__description {}
 .cmp-teaser__action-container {}
-.cmp-teaser__action-link {}
+.cmp-teaser__action-link {
+
+    text-decoration: none;
+}
