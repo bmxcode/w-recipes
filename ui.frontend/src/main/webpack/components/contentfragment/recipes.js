@@ -6,8 +6,8 @@ import {decorateImages} from './lib-contentfragment';
     const processedFlag = 'data-cmp-recipe-processed';
     const recipeCfSelector = '.cmp-contentfragment[data-cmp-contentfragment-model="w-recipes/models/recipes"]:not([' + processedFlag + '="true"])';
     const methodElSelector = '.cmp-contentfragment__element.cmp-contentfragment__element--method';
-    const cfElTitleSelector = '.cmp-contentfragment__element-title'
-    const cfElValueSelector = '.cmp-contentfragment__element-value'
+    const cfElTitleSelector = '.cmp-contentfragment__element-title';
+    const cfElValueSelector = '.cmp-contentfragment__element-value';
     const headingsSelector = 'h1,h2,h3,h4,h5,h6';
 
     function createStepContainer(methodContainer, stepNo) {
@@ -55,13 +55,37 @@ import {decorateImages} from './lib-contentfragment';
         });
     }
 
+    function decorateLayout(element) {
+        const mainImage = element.querySelector('.cmp-contentfragment__element--mainImage');
+
+        const summaryContainer = document.createElement('div');
+        summaryContainer.classList.add('cmp-contentfragment__recipe-summary-container');
+        const detailsContainer = document.createElement('div');
+        detailsContainer.classList.add('cmp-contentfragment__recipe-details-container');
+
+        mainImage.after(summaryContainer);
+        summaryContainer.after(detailsContainer);
+
+        const summaryItems = element.querySelectorAll('.cmp-contentfragment__element--prep, .cmp-contentfragment__element--cook, .cmp-contentfragment__element--serves, .cmp-contentfragment__element--difficulty');
+        [...summaryItems].forEach((item) => {
+            summaryContainer.append(item);
+        });
+
+        const detailsItems = element.querySelectorAll('.cmp-contentfragment__element--ingredients, .cmp-contentfragment__element--method, .cmp-contentfragment__element--categories');
+        [...detailsItems].forEach((item) => {
+            detailsContainer.append(item);
+        });
+    }
+
     function applyComponentStyles(responsiveGridEl) {
         responsiveGridEl.querySelectorAll(recipeCfSelector).forEach(function (cf) {
             // Mark the content fragment as processed, since we don't want to accidentally apply the JS adjustments multiple times
             cf.setAttribute(processedFlag, true);
+            cf.classList.add('cmp-contentfragment__recipe');
             // Adjust the DOM
             decorateImages(cf);
             decorateMethod(cf);
+            decorateLayout(cf);
         });
     }
 
