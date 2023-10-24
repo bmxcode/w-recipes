@@ -1,7 +1,9 @@
 .cmp-list {}
 .cmp-list__item { 
     list-style-type: none;
-    
+    float: left;
+    width:25%;
+    display: block;
 }
 .cmp-list__item-link {}
 .cmp-list__item-title {}
