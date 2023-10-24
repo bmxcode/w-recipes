@@ -1,8 +1,17 @@
 .cmp-teaser {}
-.cmp-teaser__image {}
+.cmp-teaser__image {
+    width: 200px;
+    height: 200px;
+}
 .cmp-teaser__content {}
 .cmp-teaser__pretitle {}
-.cmp-teaser__title {}
+.cmp-teaser__title {
+
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+
+}
 .cmp-teaser__title-link {}
 .cmp-teaser__description {}
 .cmp-teaser__action-container {}

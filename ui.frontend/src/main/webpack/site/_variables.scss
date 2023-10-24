@@ -6,6 +6,24 @@ $font-size:             16px;
 $font-height:           1.5;
 
 //== Color
+//== Colors
+//
+//## Gray and brand colors for use across theme.
+
+$black:                  #202020;
+$gray:                   #696969;
+$gray-light:             #EBEBEB;
+$gray-lighter:           #F7F7F7;
+$white:                  #ffffff;
+
+$yellow:                 #FFEA00;
+$blue:                   #0045FF;
+$pink:                   #FF0058;
+
+
+
+
+
 
 // Normal mode
 $color-foreground:      #202020;
@@ -16,3 +34,7 @@ $color-link:            #2020E0;
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
+
+
+
+
