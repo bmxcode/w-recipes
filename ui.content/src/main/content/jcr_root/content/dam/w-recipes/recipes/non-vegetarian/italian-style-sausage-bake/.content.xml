@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="61a93c2a-c7b6-4711-b55f-3822e3178a7c">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastModified="{Date}2023-10-24T12:56:06.687+11:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated_publish="{Date}2023-10-13T00:01:30.106Z"
+        cq:lastReplicatedBy_publish="waring@adobe.com"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="italian-style-sauage-bake"
+        cq:parentPath="/content/dam/w-recipes/recipes"
+        jcr:lastModified="{Date}2023-10-24T12:56:53.585+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Italian-style Sausage Bake"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-10-24T12:56:53.585+11:00">
+        <data
+            cq:model="/conf/w-recipes/settings/dam/cfm/models/recipes"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                cq:tags="[woolworths:recipes/category,woolworths:recipes/category/fresh-ideas,woolworths:recipes/cusine/australian,woolworths:recipes/course,woolworths:recipes/course/main,woolworths:recipes/allergies/peanut-free,woolworths:recipes/vegetables/spinach,woolworths:recipes/allergies/sesame-free,woolworths:recipes/cusine,woolworths:recipes/allergies/tree-nut-free,woolworths:recipes/vegetables,woolworths:recipes/allergies/egg-free]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                categories="[woolworths:recipes/allergies/egg-free,woolworths:recipes/allergies/peanut-free,woolworths:recipes/allergies/sesame-free,woolworths:recipes/allergies/tree-nut-free,woolworths:recipes/category,woolworths:recipes/category/fresh-ideas,woolworths:recipes/course,woolworths:recipes/course/main,woolworths:recipes/cusine,woolworths:recipes/cusine/australian,woolworths:recipes/vegetables,woolworths:recipes/vegetables/spinach]"
+                categories_x0040_LastModified="{Date}2023-10-13T00:00:49.582Z"
+                cook="25"
+                cook_x0040_LastModified="{Date}2023-10-12T23:57:53.560Z"
+                difficulty="3"
+                difficulty_x0040_LastModified="{Date}2023-10-12T23:57:55.705Z"
+                ingredients="[20g butter\, melted 20 grams butter\, melted ,1 1/2 cup milk 1 and 1 half cup milk  ,250g frozen chopped spinach\, thawed 250 grams frozen chopped spinach\, thawed ,1 large head broccoli\, cut into florets,1 large free-range BBQ roast chicken 1  large free-range BBQ roast chicken  ,250g light cream cheese,1 tbs dijon mustard 1 tablespoon dijon mustard  ,4 cups garden salad (optional\, to serve) 4 cups garden salad  (optional\, to serve),1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs  ,3/4 cup tasty cheese\, shredded 3 quarters cup tasty cheese\, shredded ]"
+                ingredients_x0040_LastModified="{Date}2023-10-12T23:59:36.162Z"
+                mainImage="/content/dam/w-recipes/recipes/images/2304-Italian-style-sausage-bake_Desktop-1300x658.jpeg"
+                mainImage_x0040_LastModified="{Date}2023-10-24T12:56:53.570+11:00"
+                method="&lt;h3>Step 1 of 4&lt;/h3>&#xa;&lt;p>Preheat the oven to 190°C/170°C fan-forced.&lt;/p>&#xa;&lt;h3>Step 2 of 4&lt;/h3>&#xa;&lt;p>In a large skillet over medium heat, cook the chicken in olive oil for 5 minutes or until the chicken is brown. Tip in the leeks and garlic and cook for another 2 minutes. Cooked pasta for 2 minutes less than the package instructions. Reserve 300ml pasta water and drain.&lt;/p>&#xa;&lt;h3>Step 3 of 4&lt;/h3>&#xa;&lt;p>Deglaze the pan with the reserved pasta water, making sure to scrap the brown bits at the bottom of the pan. Mix in the cream cheese and stir until completely melted. Take off from heat.&lt;/p>&#xa;&lt;h3>Step 4 of 4&lt;/h3>&#xa;&lt;p>Stir the pasta and broccoli into the sauce. Fold in the half of mozzarella and mix through. Transfer the pasta into a baking dish and sprinkle with the remaining cheese on top. Bake in the oven for 10 minutes or until the cheese has melted. Allow to rest for about 5 minutes before serving.&lt;/p>&#xa;"
+                method_x0040_ContentType="text/html"
+                method_x0040_LastModified="{Date}2023-10-20T19:20:36.686+11:00"
+                prep="15"
+                prep_x0040_LastModified="{Date}2023-10-12T23:57:50.686Z"
+                serves="4"
+                serves_x0040_LastModified="{Date}2023-10-12T23:57:53.564Z"
+                step1="Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain."
+                step1_x0040_LastModified="{Date}2023-10-12T23:59:45.862Z"
+                step2="Remove meat from chicken and roughly chop. Discard skin and bones."
+                step2_x0040_LastModified="{Date}2023-10-12T23:59:53.122Z"
+                step3="Heat cream cheese, milk and mustard in a saucepan over medium heat, stirring until smooth. Remove from heat and add 1/2 cup cheese, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken, broccoli, sauce and spinach in an 8-cup capacity ovenproof dish."
+                step3_x0040_LastModified="{Date}2023-10-13T00:00:02.337Z"
+                step4="Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired."
+                step4_x0040_LastModified="{Date}2023-10-13T00:00:09.205Z"
+                title="Italian-style Sausage Bake"
+                title_x0040_LastModified="{Date}2023-10-24T12:56:53.570+11:00"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="f5ce5d37-89e6-428d-9eda-d7cb4e98d2d3"
+                _x0040_string_x0040_model="/conf/w-recipes/settings/dam/cfm/models/recipes"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_cook="25"
+                string_x0040_difficulty="3"
+                string_x0040_method="&lt;h3>Step 1 of 4&lt;/h3>&#xa;&lt;p>Preheat the oven to 190°C/170°C fan-forced.&lt;/p>&#xa;&lt;h3>Step 2 of 4&lt;/h3>&#xa;&lt;p>In a large skillet over medium heat, cook the chicken in olive oil for 5 minutes or until the chicken is brown. Tip in the leeks and garlic and cook for another 2 minutes. Cooked pasta for 2 minutes less than the package instructions. Reserve 300ml pasta water and drain.&lt;/p>&#xa;&lt;h3>Step 3 of 4&lt;/h3>&#xa;&lt;p>Deglaze the pan with the reserved pasta water, making sure to scrap the brown bits at the bottom of the pan. Mix in the cream cheese and stir until completely melted. Take off from heat.&lt;/p>&#xa;&lt;h3>Step 4 of 4&lt;/h3>&#xa;&lt;p>Stir the pasta and broccoli into the sauce. Fold in the half of mozzarella and mix through. Transfer the pasta into a baking dish and sprinkle with the remaining cheese on top. Bake in the oven for 10 minutes or until the cheese has melted. Allow to rest for about 5 minutes before serving.&lt;/p>&#xa;"
+                string_x0040_prep="15"
+                string_x0040_serves="4"
+                string_x0040_step1="Preheat oven to 200°C. Cook broccoli in a saucepan of boiling water for 2 minutes or until just tender. Drain."
+                string_x0040_step2="Remove meat from chicken and roughly chop. Discard skin and bones."
+                string_x0040_step3="Heat cream cheese, milk and mustard in a saucepan over medium heat, stirring until smooth. Remove from heat and add 1/2 cup cheese, stirring until melted and combined. Squeeze liquid from spinach. Combine chicken, broccoli, sauce and spinach in an 8-cup capacity ovenproof dish."
+                string_x0040_step4="Combine breadcrumbs, butter and remaining cheese in a small bowl. Sprinkle over chicken mixture. Bake for 20 minutes or until the crumb topping is golden and the bake is heated through. Serve with salad if desired."
+                string_x0040_title="Italian-style Sausage Bake"
+                stringArray_x0040_ingredients="[20g butter\, melted 20 grams butter\, melted ,1 1/2 cup milk 1 and 1 half cup milk  ,250g frozen chopped spinach\, thawed 250 grams frozen chopped spinach\, thawed ,1 large head broccoli\, cut into florets,1 large free-range BBQ roast chicken 1  large free-range BBQ roast chicken  ,250g light cream cheese,1 tbs dijon mustard 1 tablespoon dijon mustard  ,4 cups garden salad (optional\, to serve) 4 cups garden salad  (optional\, to serve),1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs  ,3/4 cup tasty cheese\, shredded 3 quarters cup tasty cheese\, shredded ]"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

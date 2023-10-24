@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-10-24T13:14:30.305+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/w-recipes/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Italian-style Sausage Bake"
+        sling:resourceType="w-recipes/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="w-recipes/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="w-recipes/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="w-recipes/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="w-recipes/components/container"
+                    layout="responsiveGrid">
+                    <contentfragment
+                        jcr:created="{Date}2023-10-24T13:14:10.584+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-10-24T13:14:30.274+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="w-recipes/components/contentfragment"
+                        displayMode="multi"
+                        fragmentPath="/content/dam/w-recipes/recipes/non-vegetarian/italian-style-sausage-bake"
+                        paragraphScope="all"
+                        text="Italian-style Sausage Bake Title Italian-style Sausage Bake Main Image /content/dam/w-recipes/recipes/images/2304-Italian-style-sausage-bake_Desktop-1300x658.jpeg Prep 15 Cook 25 Serves 4 Difficulty 3 Ingredients 20g butter, melted 20 grams butter, melted 1 1/2 cup milk 1 and 1 half cup milk 250g frozen chopped spinach, thawed 250 grams frozen chopped spinach, thawed 1 large head broccoli, cut into florets 1 large free-range BBQ roast chicken 1 large free-range BBQ roast chicken 250g light cream cheese 1 tbs dijon mustard 1 tablespoon dijon mustard 4 cups garden salad (optional, to serve) 4 cups garden salad (optional, to serve) 1/2 cup panko breadcrumbs 1 half cup panko breadcrumbs 3/4 cup tasty cheese, shredded 3 quarters cup tasty cheese, shredded Method Step 1 of 4 Preheat the oven to 190°C/170°C fan-forced. Step 2 of 4 In a large skillet over medium heat, cook the chicken in olive oil for 5 minutes or until the chicken is brown. Tip in the leeks and garlic and cook for another 2 minutes. Cooked pasta for 2 minutes less than the package instructions. Reserve 300ml pasta water and drain. Step 3 of 4 Deglaze the pan with the reserved pasta water, making sure to scrap the brown bits at the bottom of the pan. Mix in the cream cheese and stir until completely melted. Take off from heat. Step 4 of 4 Stir the pasta and broccoli into the sauce. Fold in the half of mozzarella and mix through. Transfer the pasta into a baking dish and sprinkle with the remaining cheese on top. Bake in the oven for 10 minutes or until the cheese has melted. Allow to rest for about 5 minutes before serving. Categories woolworths:recipes/allergies/egg-free woolworths:recipes/allergies/peanut-free woolworths:recipes/allergies/sesame-free woolworths:recipes/allergies/tree-nut-free woolworths:recipes/category woolworths:recipes/category/fresh-ideas woolworths:recipes/course woolworths:recipes/course/main woolworths:recipes/cusine woolworths:recipes/cusine/australian woolworths:recipes/vegetables woolworths:recipes/vegetables/spinach"
+                        variationName="master"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
