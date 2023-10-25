@@ -241,7 +241,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:Woolworths Recipes - Content,/apps/w-recipes/components/form/container]">
+                    components="[group:Woolworths Recipes - Content,group:Woolworths Recipes - Custom,/apps/w-recipes/components/form/container]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">

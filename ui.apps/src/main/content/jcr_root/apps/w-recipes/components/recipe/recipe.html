@@ -1,0 +1,56 @@
+<article data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+    data-sly-test.hasContent="${properties.jcr:title}"
+    class="cmp-contentfragment__recipe">
+    <dl class="cmp-contentfragment__elements">
+        <div class="cmp-contentfragment__element cmp-contentfragment__element--mainImage">
+            <dd class="cmp-contentfragment__element-value">
+                <img class="cmp-contentfragment__image" src="${properties.fileReference}" alt=""/>
+            </dd>
+        </div>
+        <div class="cmp-contentfragment__recipe-summary-container">
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--prep">
+                <dt class="cmp-contentfragment__element-title">Prep</dt>
+                <dd class="cmp-contentfragment__element-value">${properties.prep}</dd>
+            </div>
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--cook">
+                <dt class="cmp-contentfragment__element-title">Cook</dt>
+                <dd class="cmp-contentfragment__element-value">${properties.cook}</dd>
+            </div>
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--serves">
+                <dt class="cmp-contentfragment__element-title">Serves</dt>
+                <dd class="cmp-contentfragment__element-value">${properties.serves}</dd>
+            </div>
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--difficulty">
+                <dt class="cmp-contentfragment__element-title">Difficulty</dt>
+                <dd class="cmp-contentfragment__element-value">${properties.difficulty}</dd>
+            </div>
+        </div>
+        <div class="cmp-contentfragment__recipe-details-container">
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--ingredients">
+                <dt class="cmp-contentfragment__element-title">Ingredients</dt>
+                <dd class="cmp-contentfragment__element-value">
+                    <sly data-sly-test="${resource.hasChildren}" data-sly-list="${resource.getChildren}">
+                        <sly data-sly-test="${item.name == 'ingredients'}" data-sly-list="${item.getChildren}">
+                            ${item.ingredient}<br/>
+                        </sly>
+                    </sly>
+                </dd>
+            </div>
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--method">
+                <dt class="cmp-contentfragment__element-title">Method</dt>
+                <dd class="cmp-contentfragment__element-value">
+                    <div class="cmp-contentfragment__recipe-method-container">
+                        ${properties.method @ context='html'}
+                    </div>
+                </dd>
+            </div>
+            <div class="cmp-contentfragment__element cmp-contentfragment__element--categories">
+                <dt class="cmp-contentfragment__element-title">Categories</dt>
+                <dd class="cmp-contentfragment__element-value">
+                    ${properties.categories @ join='<br/> ', context='html'}
+                </dd>
+            </div>
+        </div>
+    </dl>
+</article>
+<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent, classAppend='cmp-recipe'}"></sly>
