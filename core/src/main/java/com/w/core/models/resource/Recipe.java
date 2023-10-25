@@ -10,7 +10,6 @@ import org.apache.sling.models.annotations.injectorspecific.SlingObject;
 
 import javax.inject.Inject;
 import javax.inject.Named;
-
 import java.util.ArrayList;
 import java.util.List;
 

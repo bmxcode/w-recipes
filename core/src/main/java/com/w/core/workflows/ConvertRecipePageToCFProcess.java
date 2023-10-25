@@ -80,6 +80,14 @@ public class ConvertRecipePageToCFProcess implements WorkflowProcess {
     }
 
 
+    /**
+     * Adds the Data (Object) to the Recipe Content Fragment Element for the Element Name.
+     *
+     * @param contentFragment the Recipe Content Fragment
+     * @param elementName     the element name to update
+     * @param value           the value to add to the element name.
+     * @throws WorkflowException if there are issues when adding data to the element.
+     */
     private void addFragmentDataToCF(ContentFragment contentFragment, String elementName, Object value) throws WorkflowException {
         try {
             // get the content element
@@ -97,6 +105,15 @@ public class ConvertRecipePageToCFProcess implements WorkflowProcess {
         }
     }
 
+    /**
+     * Creates a Recipe Content Fragment from a Recipe Page.
+     *
+     * @param rr         the resource resolver
+     * @param cfRootPath the content fragment parent folder path
+     * @param recipe     the Recipe that will be created to a content fragment shell.
+     * @return a content fragment named after the Recipe
+     * @throws WorkflowException for all null checks and issues creating a content fragment.
+     */
     private ContentFragment createRecipeContentFragment(ResourceResolver rr, String cfRootPath, Recipe recipe)
             throws WorkflowException {
 
@@ -152,42 +169,5 @@ public class ConvertRecipePageToCFProcess implements WorkflowProcess {
         }
         return StringUtils.EMPTY;
     }
-
-/*
-    private Map<String, ContentFragment> createContentFragment(String actionId, Map<String, Object> contentMap, String contentFragmentFolder,
-                                                               String templateModel, String cfTypeName, ResourceResolver resourceResolver) throws ContentFragmentException, PersistenceException {
-
-        Map<String, ContentFragment> cfMap = new HashMap<>();
-
-        if (contentMap.size() > 0) {
-            Resource templateOrModelRsc = resourceResolver.getResource(templateModel);
-            Resource parentRsc = resourceResolver.getResource(contentFragmentFolder);
-            FragmentTemplate tpl = templateOrModelRsc.adaptTo(FragmentTemplate.class);
-
-            ContentFragment contentFragment = tpl.createFragment(parentRsc, actionId.toLowerCase() + DELIM_UNDERSCORE + cfTypeName, actionId.toUpperCase() + DELIM_UNDERSCORE + cfTypeName);
-            String cfMapKey = templateOrModelRsc.getPath();
-            if (CF_MODEL_WEB.equals(templateModel)) {
-                cfMapKey = cfMapKey + DELIM_UNDERSCORE + cfTypeName;
-            }
-            cfMap.put(cfMapKey, contentFragment);
-
-            //we use the content fragment model to determine what fields to get from action map
-            Iterator<ContentElement> contentElements = contentFragment.getElements();
-            while (contentElements.hasNext()) {
-                ContentElement contentElement = contentElements.next();
-                String key = contentElement.getName();
-                Object contentObject = contentMap.get(key);
-
-                //if the input map does not have the data inside the action model then we do not need to create
-                if (contentObject != null) {
-                    FragmentData fragmentData = contentElement.getValue();
-                    fragmentData.setValue(contentObject);
-                    contentElement.setValue(fragmentData);
-                }
-            }
-        }
-        return cfMap;
-    }
- */
 
 }
