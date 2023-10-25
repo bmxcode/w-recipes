@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
+    <filter root="/conf/global/settings/workflow/models/convert-recipe-to-cf" mode="replace"/>
     <filter root="/conf/w-recipes" mode="merge"/>
+
     <filter root="/content/cq:graphql/w-recipes" mode="merge"/>
     <filter root="/content/cq:tags/woolworths" mode="merge"/>
-    <filter root="/content/w-recipes" mode="merge"/>
     <filter root="/content/dam/w-recipes" mode="merge">
         <exclude pattern="/content/dam/w-recipes(/.*)?"/>
         <include pattern="/content/dam/w-recipes/jcr:content(/.*)?"/>
@@ -12,4 +13,7 @@
     <filter root="/content/dam/w-recipes/recipes" mode="merge"/>
     <filter root="/content/dam/w-recipes/offers" mode="merge"/>
     <filter root="/content/experience-fragments/w-recipes" mode="merge"/>
+    <filter root="/content/w-recipes" mode="merge"/>
+
+    <filter root="/var/workflow/models/convert-recipe-to-cf" mode="replace"/>
 </workspaceFilter>
