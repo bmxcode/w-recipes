@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/libs/settings/wcm/designs/default"
+        cq:lastModified="{Date}2023-10-25T21:05:06.192+11:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/workflow/templates/model"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Convert Recipe To CF"
+        sling:resourceType="cq/workflow/components/pages/model"
+        lastSynced="{Date}2023-10-25T21:05:07.620+11:00">
+        <flow
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <process
+                jcr:created="{Date}2023-10-25T19:10:14.311+11:00"
+                jcr:createdBy="admin"
+                jcr:description="Converts a Recipe Page to a Content Fragment"
+                jcr:lastModified="{Date}2023-10-25T21:05:06.182+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Convert Recipe to CF"
+                sling:resourceType="cq/workflow/components/model/process">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PROCESS="com.w.core.workflows.ConvertRecipePageToCFProcess"
+                    PROCESS_ARGS="cf_path=/content/dam/w-recipes/recipes/converted"
+                    PROCESS_AUTO_ADVANCE="true"/>
+            </process>
+        </flow>
+    </jcr:content>
+</jcr:root>
