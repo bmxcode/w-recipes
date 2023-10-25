@@ -10,5 +10,6 @@
     </filter>
     <filter root="/content/dam/w-recipes/asset.jpg" mode="merge"/>
     <filter root="/content/dam/w-recipes/recipes" mode="merge"/>
+    <filter root="/content/dam/w-recipes/offers" mode="merge"/>
     <filter root="/content/experience-fragments/w-recipes" mode="merge"/>
 </workspaceFilter>

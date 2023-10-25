@@ -1,0 +1,14 @@
+query allRecipes {
+  recipesList {
+    items {
+            title
+				  	method { plaintext}
+      			mainImage{... on ImageRef
+											{_path
+                        _authorUrl                       
+                      }
+					}
+    }
+  }
+}
+
