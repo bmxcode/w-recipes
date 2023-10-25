@@ -27,3 +27,9 @@
 
     text-decoration: none;
 }
+
+@media (prefers-color-scheme: dark) {
+    .cmp-teaser__title {
+        color: $color-link-dark;
+    }
+}

@@ -8,7 +8,7 @@ export function decorateImages(element) {
     const cfElSelector = '.cmp-contentfragment__element';
     const valueSelector = '.cmp-contentfragment__element-value';
 
-    // Adjust the DOM, in this case injecting an img node and settings its source to the the content fragment's picture URL
+    // Adjust the DOM, in this case injecting an img node and settings its source to the content fragment's picture URL
     const cfEls = element.querySelectorAll(cfElSelector);
     cfEls.forEach((cfEl) => {
         const cfValueEl = cfEl.querySelector(valueSelector);
