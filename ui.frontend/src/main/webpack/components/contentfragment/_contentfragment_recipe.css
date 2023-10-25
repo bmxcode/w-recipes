@@ -77,6 +77,21 @@
     }
 }
 
+.cmp-contentfragment__recipe-method-container__step--heading {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.cmp-contentfragment__recipe-categories-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cmp-contentfragment__recipe-category {
+    padding: 0px 10px;
+}
+
 @media (min-width: 600px) {
     .cmp-contentfragment__recipe-details-container {
         grid-template-columns: 1fr 1fr;
@@ -86,10 +101,4 @@
             grid-row: span 2;
         }
     }
-}
-
-.cmp-contentfragment__recipe-method-container__step--heading {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 16px;
 }
