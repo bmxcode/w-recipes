@@ -6,7 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/w-recipes/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Spicy Vodka Rigatoni"
+        jcr:title="Spicy Rigatoni"
         sling:resourceType="w-recipes/components/page"
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
@@ -23,7 +23,7 @@
                     jcr:lastModified="{Date}2023-10-24T19:22:18.549+11:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Spicy Vodka Rigatoni"
+                    jcr:title="Spicy Rigatoni"
                     sling:resourceType="w-recipes/components/title"/>
                 <container
                     jcr:primaryType="nt:unstructured"
@@ -35,7 +35,7 @@
                         jcr:lastModified="{Date}2023-10-25T13:13:10.722+11:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Spicy Vodka Rigatoni"
+                        jcr:title="Spicy Rigatoni"
                         sling:resourceType="w-recipes/components/recipe"
                         categories="[woolworths:recipes/course/main,woolworths:recipes/cusine/italian]"
                         cook="12 min"
